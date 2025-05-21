@@ -2,41 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OopsAI - We Kinda Know What We're Doing</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Automation Freelancer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(to bottom right, white, #f1f5f9);
+      color: #1e293b;
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero {
+      padding: 4rem 1rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.125rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      padding: 0.75rem 1.5rem;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 3rem auto;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .card h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.25rem;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>OopsAI 🤖</h1>
-    <p>Artificial Intelligence that *mostly* works. 90% genius, 10% 🤷</p>
-    <img class="robot-img" src="https://i.imgur.com/5b7gG9X.png" alt="Wacky Robot">
-  </header>
+  <div class="hero">
+    <h1>AI Automation Solutions for Busy Entrepreneurs</h1>
+    <p>Save time, boost efficiency, and grow your business with custom AI workflows.</p>
+    <button class="btn">Get a Free Consultation</button>
+  </div>
 
-  <section>
-    <h2>Why Choose OopsAI?</h2>
-    <div class="features">
-      <div class="feature">
-        <h3>✅ Sometimes Smart</h3>
-        <p>Our AI once wrote a poem that made someone cry. It was our CEO, but still.</p>
-      </div>
-      <div class="feature">
-        <h3>🎯 Wildly Inaccurate</h3>
-        <p>Expect bold predictions. Accuracy optional. Confidence guaranteed.</p>
-      </div>
-      <div class="feature">
-        <h3>💡 Random "Innovations"</h3>
-        <p>It once invented "ToasterGPT". We don’t know why either.</p>
-      </div>
+  <div class="cards">
+    <div class="card">
+      <h2>Task Automation</h2>
+      <p>Automate repetitive tasks like data entry, reporting, and email follow-ups.</p>
     </div>
-    <button onclick="generateExcuse()">Get A Free AI Excuse</button>
-    <p id="excuse" style="margin-top:1em; font-style:italic;"></p>
-  </section>
+    <div class="card">
+      <h2>AI Integrations</h2>
+      <p>Integrate AI tools like ChatGPT or Zapier into your business systems.</p>
+    </div>
+    <div class="card">
+      <h2>Custom Workflows</h2>
+      <p>Tailored automations designed to fit your exact business needs.</p>
+    </div>
+  </div>
 
-  <footer>
-    © 2025 OopsAI Inc. — Not legally responsible for your robot uprising.
-  </footer>
-
-  <script src="script.js"></script>
+  <div class="hero">
+    <p>Ready to automate your business?</p>
+    <button class="btn">Book a Free Call</button>
+  </div>
 </body>
 </html>
